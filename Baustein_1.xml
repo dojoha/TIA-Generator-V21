@@ -73,29 +73,19 @@
             <FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
               <Parts>
                 <Access Scope="GlobalVariable" UId="21">
-                  <Symbol>
-                    <Component Name="B_Tank_Voll" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Voll}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="22">
-                  <Symbol>
-                    <Component Name="B_Tank_Halb" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Halb}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="23">
-                  <Symbol>
-                    <Component Name="B_Tank_Halb" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Halb}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="24">
-                  <Symbol>
-                    <Component Name="B_Tank_Leer" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Leer}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="25">
-                  <Symbol>
-                    <Component Name="M_Sensor_Fehler" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Sensor_Fehler}}" /></Symbol>
                 </Access>
                 <Part Name="A" UId="26">
                   <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
@@ -177,34 +167,22 @@
             <FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
               <Parts>
                 <Access Scope="GlobalVariable" UId="21">
-                  <Symbol>
-                    <Component Name="S_Auto_Ein" />
-                  </Symbol>
+                  <Symbol><Component Name="{{S_Auto_Ein}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="22">
-                  <Symbol>
-                    <Component Name="B_Tank_Leer" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Leer}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="23">
-                  <Symbol>
-                    <Component Name="B_Tank_Voll" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Voll}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="24">
-                  <Symbol>
-                    <Component Name="M_Sensor_Fehler" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Sensor_Fehler}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="25">
-                  <Symbol>
-                    <Component Name="S_Not_Halt" />
-                  </Symbol>
+                  <Symbol><Component Name="{{S_Not_Halt}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="26">
-                  <Symbol>
-                    <Component Name="M_Pumpe_Füllen" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Pumpe_Füllen}}" /></Symbol>
                 </Access>
                 <Part Name="A" UId="27">
                   <TemplateValue Name="Card" Type="Cardinality">2</TemplateValue>
@@ -283,24 +261,16 @@
             <FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
               <Parts>
                 <Access Scope="GlobalVariable" UId="21">
-                  <Symbol>
-                    <Component Name="M_Pumpe_Füllen" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Pumpe_Füllen}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="22">
-                  <Symbol>
-                    <Component Name="S_Not_Halt" />
-                  </Symbol>
+                  <Symbol><Component Name="{{S_Not_Halt}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="23">
-                  <Symbol>
-                    <Component Name="M_Sensor_Fehler" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Sensor_Fehler}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="24">
-                  <Symbol>
-                    <Component Name="K_Pumpe" />
-                  </Symbol>
+                  <Symbol><Component Name="{{K_Pumpe}}" /></Symbol>
                 </Access>
                 <Part Name="A" UId="25">
                   <TemplateValue Name="Card" Type="Cardinality">3</TemplateValue>
@@ -363,49 +333,31 @@
             <FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
               <Parts>
                 <Access Scope="GlobalVariable" UId="21">
-                  <Symbol>
-                    <Component Name="B_Tank_Halb" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Halb}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="22">
-                  <Symbol>
-                    <Component Name="H_Leer" />
-                  </Symbol>
+                  <Symbol><Component Name="{{H_Leer}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="23">
-                  <Symbol>
-                    <Component Name="B_Tank_Halb" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Halb}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="24">
-                  <Symbol>
-                    <Component Name="B_Tank_Voll" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Voll}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="25">
-                  <Symbol>
-                    <Component Name="H_Halb" />
-                  </Symbol>
+                  <Symbol><Component Name="{{H_Halb}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="26">
-                  <Symbol>
-                    <Component Name="B_Tank_Voll" />
-                  </Symbol>
+                  <Symbol><Component Name="{{B_Tank_Voll}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="27">
-                  <Symbol>
-                    <Component Name="H_Voll" />
-                  </Symbol>
+                  <Symbol><Component Name="{{H_Voll}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="28">
-                  <Symbol>
-                    <Component Name="M_Sensor_Fehler" />
-                  </Symbol>
+                  <Symbol><Component Name="{{M_Sensor_Fehler}}" /></Symbol>
                 </Access>
                 <Access Scope="GlobalVariable" UId="29">
-                  <Symbol>
-                    <Component Name="H_Störung" />
-                  </Symbol>
+                  <Symbol><Component Name="{{H_Störung}}" /></Symbol>
                 </Access>
                 <Part Name="Coil" UId="30">
                   <Negated Name="in" />
